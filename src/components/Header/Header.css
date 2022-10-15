@@ -1,0 +1,17 @@
+.header-nav {
+    padding: 2% 5%;
+    margin-left: 36%;
+    color: white;
+}
+
+.header-nav a {
+    text-decoration: none;
+    margin-right: 2%;
+    padding: 2px 5px;
+}
+
+.header {
+    padding: 0px 5%;
+    display: flex;
+    background-color: rgb(150, 168, 247);
+}
