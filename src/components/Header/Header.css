@@ -1,7 +1,7 @@
 .header-nav {
     padding: 2% 5%;
     margin-left: 36%;
-    color: white;
+
 }
 
 .header-nav a {
@@ -13,5 +13,9 @@
 .header {
     padding: 0px 5%;
     display: flex;
-    background-color: rgb(150, 168, 247);
+    background-color: rgb(25, 173, 231);
+}
+
+.clr {
+    color: white;
 }

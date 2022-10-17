@@ -7,6 +7,7 @@ const Home = () => {
     const quizs = useLoaderData();
     return (
         <div className='home-container'>
+
             <div className='upper-home'>
                 <h1>Knowledge Is Power</h1>
             </div>

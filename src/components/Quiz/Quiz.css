@@ -1,10 +1,11 @@
 .quiz {
-    border: 1px solid rgb(125, 30, 235);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin: 20px;
     padding-bottom: 20px;
     width: 20rem;
-    background-color: rgb(145, 154, 231);
+    background-color: rgb(25, 173, 231);
+
 }
 
 .quiz img {
@@ -12,14 +13,16 @@
 }
 
 .quiz button {
-    background-color: rgb(238, 117, 36);
-    border: 1px dotted rgb(104, 1, 223);
+    background-color: rgb(240, 243, 52);
+    border: 1px dotted rgb(0, 0, 0);
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px;
+
 
 }
 
 .quiz-start-btn {
     text-decoration: none;
-    color: white;
+    color: black;
+
 }

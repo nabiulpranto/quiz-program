@@ -8,8 +8,8 @@ const Quiz = ({ quiz }) => {
         <div className='quiz'>
             <img src={logo} alt='logo'></img>
             <h2>{name}</h2>
-            <button className='quiz-start-btn'>
-                <Link to={`/quiz/${id}`}>Start {name} Quiz</Link>
+            <button>
+                <Link className='quiz-start-btn' to={`/quiz/${id}`}>Start Quiz</Link>
             </button>
         </div>
     );
