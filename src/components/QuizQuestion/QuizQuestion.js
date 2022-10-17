@@ -26,9 +26,9 @@ const QuizQuestion = ({ qs, id }) => {
     return (
         <div className='quiz-question'>
             <h4>Question: {id} {question}</h4>
-            <button onClick={() => showAns(correctAnswer)}>Ans</button>
+            <button onClick={() => showAns(correctAnswer)}>Correct Answer</button>
             <div className='quiz-ans'>
-                <p>Answer</p>
+                <p> <b>Choose The Correct Answer </b></p>
 
                 <div className='quiz-option'>
                     {
