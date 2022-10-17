@@ -28,7 +28,7 @@ const QuizQuestion = ({ qs, id }) => {
             <h4>Question: {id} {question}</h4>
             <button onClick={() => showAns(correctAnswer)}>Correct Answer</button>
             <div className='quiz-ans'>
-                <p> <b>Choose The Correct Answer </b></p>
+                <p className='crct-ans'> <b>Choose The Correct Answer </b></p>
 
                 <div className='quiz-option'>
                     {
